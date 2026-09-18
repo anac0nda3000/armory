@@ -68,3 +68,19 @@ def main():
     main_menu()
 
 main()
+
+# ----------------------------------------------------------
+# def clipboard():
+    # packet = build_packet('192.99.99.99', '192.168.1.254')
+    # send_packet(packet)
+
+# def build_packet(src, dest):
+#   # packet = IP(ttl=64)
+#   # packet.src = src
+#   # packet.dest = dest
+#   # print('> Packet:')
+#   # print(packet)
+#   # return packet
+
+#   response = sr1(IP(dst=dest)/TCP(dport=443, flags="FPU"))
+#   response.show()
